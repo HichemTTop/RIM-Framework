@@ -237,39 +237,6 @@ if __name__ == '__main__':
     torch.save(model.state_dict(), filename)
     print(f"Model saved as {filename}")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    """ # Set NumPy print options
-    np.set_printoptions(threshold=np.inf)
-
-    # Convert tensor to NumPy array and print
-    print(acceptance_tensor.numpy())
-
-    # Initialize node2vec model and fit
-    node2vec = Node2Vec(g, dimensions=64, walk_length=30, num_walks=200, workers=4)
-    model_node_embeddings = node2vec.fit(window=10, min_count=1, batch_words=4)
-    
-    node_ids = list(g.nodes())
     embeddings = [model_node_embeddings.wv[str(node_id)] for node_id in node_ids]
     features_numpy = np.array(embeddings)
 
