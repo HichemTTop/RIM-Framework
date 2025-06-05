@@ -15,3 +15,4 @@ benchmark datasets demonstrate the superiority of the proposed node blocking fra
 results indicate a statistically significant reduction in misinformation spread, with non-parametric statistical tests yielding p-values
 below 0.001 (p < 0.001), confirming the robustness of our approach. This work presents a scalable and adaptable solution for
 misinformation containment, contributing to the development of more reliable and trustworthy online information ecosystems.
+[RIM Framework.pdf](https://github.com/user-attachments/files/20610001/RIM.Framework.pdf)
