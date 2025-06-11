@@ -17,3 +17,46 @@ results indicate a statistically significant reduction in misinformation spread,
 below 0.001 (p < 0.001), confirming the robustness of our approach. This work presents a scalable and adaptable solution for
 misinformation containment, contributing to the development of more reliable and trustworthy online information ecosystems.
 
+## Installation
+
+
+
+1. Install virtualenv using pip:
+```
+$ pip install virtualenv
+```
+
+
+
+
+2. Create a new virtual environment:
+```
+$ virtualenv env
+```
+
+
+
+3. Activate the virtual environment:
+```
+$ source env/bin/activate
+```
+
+
+
+4. Install the required Python packages:
+```
+$ pip install -r requirements.txt
+```
+## Usage
+
+1. Upload the Facebook graph and synthetic graphs to Neo4j using main_load_graph.py:
+```
+$ python main_load_graph.py
+```
+
+
+
+2. Run simulations by running main_boulma.py:
+```
+$ python main_boulma.py
+```
