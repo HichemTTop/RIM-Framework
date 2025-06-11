@@ -56,7 +56,16 @@ $ python main_load_graph.py
 
 
 
-2. Run simulations by running main_boulma.py:
+2. Run Training by running TrainModel.py:
 ```
-$ python main_boulma.py
+$ python TrainModel.py
+```
+
+3. Load Acceptance Rate values to the graph by running load_AccpR.py:
+```
+$ python load_AccpR.py
+```
+4. Run simulation by running main_Sim_Compare.py:
+```
+$ python main_Sim_Compare.py
 ```
