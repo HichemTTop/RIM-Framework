@@ -1,4 +1,5 @@
-[RIM Framework.pdf](https://github.com/user-attachments/files/20610001/RIM.Framework.pdf)
+![RIM Framework](https://github.com/user-attachments/assets/94d4be90-7860-4529-b048-408b7ff59193)
+
 # Misinformation Mitigation in Online Social Networks Using Continual Learning with Graph Neural Networks
 In today’s digital landscape, online social networks (OSNs) facilitate rapid information dissemination. However, they also serve
 as conduits for misinformation, leading to severe real-world consequences such as public panic, social unrest, and the erosion
